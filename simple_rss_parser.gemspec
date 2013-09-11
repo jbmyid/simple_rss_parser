@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["jbmyid@gmail.com"]
   gem.description   = "Parse almost all rss feeds"
   gem.summary       = "Used to parse rss feeds by specifying just url"
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/jbmyid/simple_rss_parser"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
