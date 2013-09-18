@@ -111,7 +111,6 @@ module SimpleRssParser
     elements :item, :as => :entries, :class => FeedEntry
     elements :entry, :as => :entries, :class => FeedEntry
 
-
     # Image
     element :image, class: FeedImage
     element :"itunes:image", :as => "image", class: HrefTag
