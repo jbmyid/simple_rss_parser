@@ -20,7 +20,7 @@ Or install it yourself as:
 
 Parse any rss feeds by simply
 
-@feed = SimpleRssParser::RssFeed.parse_rss_url
+@feed = SimpleRssParser::RssFeed.parse_rss_url('<url>')
 
 #Rss Feed
 
